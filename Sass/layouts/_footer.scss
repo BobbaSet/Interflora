@@ -1,0 +1,33 @@
+footer{
+    background-color: black;
+    color: white;
+
+    .footer{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 1200px;
+        align-items: center;
+    }
+
+    .interflora{
+        margin: 0 auto;
+    }
+
+    #logo_footer{
+        width: 130px;
+        height: 70px;
+    }
+
+    .reseaux-liste{
+        list-style: none;
+        display: flex;
+
+        .reseaux-liste1{
+            padding: 5px;
+
+            .reseaux_logo{
+                width: 30px;
+            }
+        }
+    }
+}

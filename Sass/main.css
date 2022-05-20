@@ -43,4 +43,32 @@ nav .shop {
 body {
   margin: 0 auto;
   width: 1200px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+footer .footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 1200px;
+  align-items: center;
+}
+footer .interflora {
+  margin: 0 auto;
+}
+footer #logo_footer {
+  width: 130px;
+  height: 70px;
+}
+footer .reseaux-liste {
+  list-style: none;
+  display: flex;
+}
+footer .reseaux-liste .reseaux-liste1 {
+  padding: 5px;
+}
+footer .reseaux-liste .reseaux-liste1 .reseaux_logo {
+  width: 30px;
 }/*# sourceMappingURL=main.css.map */
