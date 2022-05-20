@@ -1,5 +1,28 @@
 nav{
     display: flex;
-    width: 1200px;
     align-items: center;
+    justify-content:space-between;
+
+    .navigation{
+        display: flex;
+        list-style: none;
+    }
+
+    .navigation-liste{
+        padding: 3px;
+    }
+
+    #logo_nav{
+        width: 130px;
+        height: 70px;
+        padding: 10px;
+        background-color: black;
+        border-radius: 10px;
+    }
+
+    .shop{
+        width: 50px;
+        height: 50px;
+        margin: 0px;
+    }
 }
