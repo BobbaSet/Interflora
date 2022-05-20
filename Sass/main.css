@@ -96,4 +96,16 @@ footer .commande #check {
 footer .commande .info {
   font-size: 12px;
   color: grey;
+}
+footer .paiement {
+  width: 220px;
+  padding: 10px;
+}
+footer .paiement img {
+  width: 50px;
+  height: 30px;
+}
+footer .paiement .info {
+  font-size: 12px;
+  color: grey;
 }/*# sourceMappingURL=main.css.map */
